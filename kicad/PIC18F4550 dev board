@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>E:\Developpement\Electronique\Kicad\PIC18F4550 dev board\PIC18F4550 dev board.sch</h1>
+    <p>07/04/2019 10:05:38</p>
+    <p>Eeschema (5.1.0)-1</p>
+    <p><b>Component Count:</b>156</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>AFF1</td><td>1</td><td>WC1602A</td><td>Display_Character:WC1602A</td><td>ort-display:WC1602A_NarrowPads</td><td>LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD</td><td></td></tr>
+    <tr><td>BTN1</td><td>1</td><td>Reset</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>BZ1</td><td>1</td><td>Buzzer</td><td>Device:Buzzer</td><td>Buzzer_Beeper:Buzzer_12x9.5RM7.6</td><td>Buzzer, polarized</td><td></td></tr>
+    <tr><td>C1, C2</td><td>2</td><td>15pF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C3, C5, C6, C7, C8, C9, C15, C17, C18, C28, C29, C30, C31</td><td>13</td><td>100nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>330nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C10, C11, C12, C13</td><td>4</td><td>1µF</td><td>Device:CP_Small</td><td>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C14</td><td>1</td><td>1000µF 25V</td><td>Device:CP_Small</td><td>ort-capacitor_smd:CP_Elec_12.50x13.5</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C16</td><td>1</td><td>470µF 16V</td><td>Device:CP_Small</td><td>Capacitor_SMD:CP_Elec_8x10</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C20, C21, C22, C23, C24, C25, C26, C27</td><td>8</td><td>100nf</td><td>Device:C_Small</td><td>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D2, D5</td><td>3</td><td>LL4148</td><td>Diode:LL4148</td><td>Diode_SMD:D_MiniMELF</td><td>100V 0.15A standard switching diode, MiniMELF</td><td></td></tr>
+    <tr><td>D4, D6, D7</td><td>3</td><td>BAS86</td><td>Device:D_Schottky_Small</td><td>Diode_SMD:D_MiniMELF</td><td>Schottky diode, small symbol</td><td></td></tr>
+    <tr><td>DP1</td><td>1</td><td>LED addr</td><td>Switch:SW_DIP_x02</td><td>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm</td><td>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</td><td></td></tr>
+    <tr><td>DP2</td><td>1</td><td>Keys addr</td><td>Switch:SW_DIP_x02</td><td>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm</td><td>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</td><td></td></tr>
+    <tr><td>ENC1</td><td>1</td><td>I²C_Encoder_v2</td><td>ort-encoder:I²C_Encoder_v2</td><td>ort-encoder:I²C_Encoder_v2_THT_LongNarrowPads</td><td></td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>750mA</td><td>Device:Polyfuse_Small</td><td>Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder</td><td>Resettable fuse, polymeric positive temperature coefficient, small symbol</td><td></td></tr>
+    <tr><td>F2</td><td>1</td><td>1A</td><td>Device:Polyfuse_Small</td><td>Fuse:Fuse_BelFuse_0ZRE0075FF_L11.5mm_W4.8mm</td><td>Resettable fuse, polymeric positive temperature coefficient, small symbol</td><td></td></tr>
+    <tr><td>F3</td><td>1</td><td>500mA</td><td>Device:Polyfuse_Small</td><td>Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder</td><td>Resettable fuse, polymeric positive temperature coefficient, small symbol</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4, H5, H6</td><td>6</td><td>MountingHole</td><td>Mechanical:MountingHole</td><td>MountingHole:MountingHole_3.2mm_M3_Pad_Via</td><td>Mounting Hole without connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>ICSP</td><td>Connector_Generic:Conn_01x06</td><td>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</td><td>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>LV Prog. EN</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>LED GPIO</td><td>Connector_Generic:Conn_02x08_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</td><td>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>Mem WP</td><td>Connector_Generic:Conn_01x03</td><td>ort-switch:THT_Sliding_Switch_PinHeader_2.54mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>Digital pot</td><td>Connector_Generic:Conn_02x01</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>LCD Rlimit</td><td>Connector_Generic:Conn_01x03</td><td>ort-switch:THT_Sliding_Switch_PinHeader_2.54mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7</td><td>1</td><td>DB9_Female</td><td>Connector:DB9_Female</td><td>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm</td><td>9-pin female D-SUB connector</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>RS232</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>TX/RX</td><td>Connector_Generic:Conn_02x02_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</td><td>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J10</td><td>1</td><td>Power IN jack</td><td>Connector:Barrel_Jack_Switch</td><td>Connector_BarrelJack:BarrelJack_Horizontal</td><td>DC Barrel Jack with an internal switch</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>Power IN</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Pwr Select</td><td>Connector_Generic:Conn_01x03</td><td>ort-switch:THT_Sliding_Switch_PinHeader_2.54mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J13</td><td>1</td><td>USB_B</td><td>Connector:USB_B</td><td>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</td><td>USB Type B connector</td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>AN0</td><td>Connector_Generic:Conn_02x01</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J15</td><td>1</td><td>SPI</td><td>Connector_Generic:Conn_02x04_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</td><td>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J16</td><td>1</td><td>Analog</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>PWM</td><td>Connector_Generic:Conn_02x02_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</td><td>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J18</td><td>1</td><td>I/O</td><td>Connector_Generic:Conn_01x05</td><td>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J20</td><td>1</td><td>Buttons</td><td>Connector_Generic:Conn_02x08_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</td><td>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J22</td><td>1</td><td>External I2C 1</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J23</td><td>1</td><td>External I2C 2</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J24</td><td>1</td><td>External I2C 3</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J25</td><td>1</td><td>External I2C 4</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J26</td><td>1</td><td>+5V</td><td>Connector_Generic:Conn_01x05</td><td>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J27</td><td>1</td><td>GND</td><td>Connector_Generic:Conn_01x05</td><td>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J28</td><td>1</td><td>LCD pwr.</td><td>Connector_Generic:Conn_01x03</td><td>ort-switch:THT_Sliding_Switch_PinHeader_2.54mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>LD1, LD2, LD3, LD4, LD5, LD6, LD7, LD8</td><td>8</td><td>Y</td><td>Device:LED</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>LD9</td><td>1</td><td>R</td><td>Device:LED_Small</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>LD10, RXD1</td><td>2</td><td>W</td><td>Device:LED_Small</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>LD11</td><td>1</td><td>Y</td><td>Device:LED_Small</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>LD12, TXD1</td><td>2</td><td>B</td><td>Device:LED_Small</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>LD13</td><td>1</td><td>G</td><td>Device:LED_Small</td><td>LED_SMD:LED_1206_3216Metric_Castellated</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>Q1, Q2</td><td>2</td><td>BC817</td><td>Transistor_BJT:BC817</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R3</td><td>3</td><td>4.7k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R4, R6, R7, R21, RRX1, RTX1</td><td>6</td><td>470</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R8, R10, R12, R14, R16, R18, R25, R27</td><td>8</td><td>100k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R9, R11, R13, R15, R17, R19, R26, R28, RA1, RA2, RA3, RA4, RA5</td><td>13</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R20, R24</td><td>2</td><td>1k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R22, R23</td><td>2</td><td>4.7k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R29, R30, R31</td><td>3</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R32</td><td>1</td><td>470</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>RN1, RN2</td><td>2</td><td>470</td><td>Device:R_Pack04</td><td>Resistor_SMD:R_Array_Convex_4x1206</td><td>4 resistor network, parallel topology, DIP package</td><td></td></tr>
+    <tr><td>RV1</td><td>1</td><td>10k</td><td>Device:R_POT</td><td>ort-pot:Trimming_pot_SR_Passives_RKT6V_5mm</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>RV2</td><td>1</td><td>100k</td><td>Device:R_POT</td><td>ort-pot:PCB_Pot_SR_Passives_R9011</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>Up</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>Left</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW3</td><td>1</td><td>Down</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW4</td><td>1</td><td>Right</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW5</td><td>1</td><td>Select</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW6</td><td>1</td><td>Back</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW7</td><td>1</td><td>B</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW8</td><td>1</td><td>A</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_PTS645</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>SW9</td><td>1</td><td>Power</td><td>Switch:SW_SPDT</td><td>ort-switch:Angle_Sliding_Switch_4.4mmPitch</td><td>Switch, single pole double throw</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>PIC18F4550-IP</td><td>MCU_Microchip_PIC18:PIC18F4550-IP</td><td>ort-pdip:DIP-40_W15.24mm_Socket_LongNarrowPads</td><td>32K Flash, 2K SRAM, 256 EEPROM, USB, nanoWatt XLP, DIP40</td><td></td></tr>
+    <tr><td>U2, U8</td><td>2</td><td>MCP23008</td><td>ort-microchip:MCP23008</td><td>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</td><td>8-Bit I/O Expander with I²C Interface</td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>24LC16</td><td>Memory_EEPROM:24LC16</td><td>ort-pdip:DIP-8_W7.62mm_Socket_LongNarrowPads</td><td>I2C Serial EEPROM, 16Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>MCP4551</td><td>ort-microchip:MCP4551</td><td>Package_SO:MSOP-8_3x3mm_P0.65mm</td><td>7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14</td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>TC72</td><td>ort-microchip:TC72</td><td>Package_SO:MSOP-8_3x3mm_P0.65mm</td><td></td><td></td></tr>
+    <tr><td>U6</td><td>1</td><td>MAX232</td><td>Interface_UART:MAX232</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td>Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C</td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>LM7805_TO220</td><td>Regulator_Linear:LM7805_TO220</td><td>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</td><td>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>74HC14</td><td>74xx:74HC14</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td>Hex inverter schmitt trigger</td><td></td></tr>
+    <tr><td>U10</td><td>1</td><td>74LVC2G14</td><td>74xGxx:74LVC2G14</td><td>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</td><td>Dual NOT Gate Schmitt Triggered, Low-Voltage CMOS</td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>20 MHz</td><td>Device:Crystal</td><td>Crystal:Crystal_SMD_HC49-SD</td><td>Two pin crystal</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
